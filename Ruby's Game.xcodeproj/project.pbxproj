@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E6666151E19F0470023517E /* BananaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6666141E19F0470023517E /* BananaController.swift */; };
+		6EA0B0011E1CDE2E0061660D /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0B0001E1CDE2E0061660D /* PhotoCollectionViewCell.swift */; };
 		6ECCBD3B1E10BC0E0074467B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCBD3A1E10BC0E0074467B /* AppDelegate.swift */; };
 		6ECCBD3D1E10BC0E0074467B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCBD3C1E10BC0E0074467B /* ViewController.swift */; };
 		6ECCBD401E10BC0E0074467B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECCBD3E1E10BC0E0074467B /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		6ECCBD451E10BC0E0074467B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECCBD431E10BC0E0074467B /* LaunchScreen.storyboard */; };
 		6ECCBD501E10BC0E0074467B /* NINJATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCBD4F1E10BC0E0074467B /* NINJATests.swift */; };
 		6ECCBD5B1E10BC0E0074467B /* NINJAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCBD5A1E10BC0E0074467B /* NINJAUITests.swift */; };
+		6ECCBD6B1E10D5DA0074467B /* NinjaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCBD6A1E10D5DA0074467B /* NinjaViewController.swift */; };
+		6ECEEE831E12258E005919BF /* DragonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECEEE821E12258E005919BF /* DragonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +38,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6ECCBD371E10BC0E0074467B /* NINJA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NINJA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6666141E19F0470023517E /* BananaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BananaController.swift; sourceTree = "<group>"; };
+		6EA0B0001E1CDE2E0061660D /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		6ECCBD371E10BC0E0074467B /* Ruby's Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ruby's Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ECCBD3A1E10BC0E0074467B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6ECCBD3C1E10BC0E0074467B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6ECCBD3F1E10BC0E0074467B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6ECCBD411E10BC0E0074467B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6ECCBD441E10BC0E0074467B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6ECCBD461E10BC0E0074467B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6ECCBD4B1E10BC0E0074467B /* NINJATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NINJATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECCBD4B1E10BC0E0074467B /* Ruby's GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ruby's GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ECCBD4F1E10BC0E0074467B /* NINJATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NINJATests.swift; sourceTree = "<group>"; };
 		6ECCBD511E10BC0E0074467B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6ECCBD561E10BC0E0074467B /* NINJAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NINJAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECCBD561E10BC0E0074467B /* Ruby's GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ruby's GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ECCBD5A1E10BC0E0074467B /* NINJAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NINJAUITests.swift; sourceTree = "<group>"; };
 		6ECCBD5C1E10BC0F0074467B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ECCBD6A1E10D5DA0074467B /* NinjaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinjaViewController.swift; sourceTree = "<group>"; };
+		6ECEEE821E12258E005919BF /* DragonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +95,9 @@
 		6ECCBD381E10BC0E0074467B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6ECCBD371E10BC0E0074467B /* NINJA.app */,
-				6ECCBD4B1E10BC0E0074467B /* NINJATests.xctest */,
-				6ECCBD561E10BC0E0074467B /* NINJAUITests.xctest */,
+				6ECCBD371E10BC0E0074467B /* Ruby's Game.app */,
+				6ECCBD4B1E10BC0E0074467B /* Ruby's GameTests.xctest */,
+				6ECCBD561E10BC0E0074467B /* Ruby's GameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +107,10 @@
 			children = (
 				6ECCBD3A1E10BC0E0074467B /* AppDelegate.swift */,
 				6ECCBD3C1E10BC0E0074467B /* ViewController.swift */,
+				6ECCBD6A1E10D5DA0074467B /* NinjaViewController.swift */,
+				6EA0B0001E1CDE2E0061660D /* PhotoCollectionViewCell.swift */,
+				6ECEEE821E12258E005919BF /* DragonViewController.swift */,
+				6E6666141E19F0470023517E /* BananaController.swift */,
 				6ECCBD3E1E10BC0E0074467B /* Main.storyboard */,
 				6ECCBD411E10BC0E0074467B /* Assets.xcassets */,
 				6ECCBD431E10BC0E0074467B /* LaunchScreen.storyboard */,
@@ -128,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6ECCBD361E10BC0E0074467B /* NINJA */ = {
+		6ECCBD361E10BC0E0074467B /* Ruby's Game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6ECCBD5F1E10BC0F0074467B /* Build configuration list for PBXNativeTarget "NINJA" */;
+			buildConfigurationList = 6ECCBD5F1E10BC0F0074467B /* Build configuration list for PBXNativeTarget "Ruby's Game" */;
 			buildPhases = (
 				6ECCBD331E10BC0E0074467B /* Sources */,
 				6ECCBD341E10BC0E0074467B /* Frameworks */,
@@ -140,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = NINJA;
+			name = "Ruby's Game";
 			productName = NINJA;
-			productReference = 6ECCBD371E10BC0E0074467B /* NINJA.app */;
+			productReference = 6ECCBD371E10BC0E0074467B /* Ruby's Game.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6ECCBD4A1E10BC0E0074467B /* NINJATests */ = {
+		6ECCBD4A1E10BC0E0074467B /* Ruby's GameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6ECCBD621E10BC0F0074467B /* Build configuration list for PBXNativeTarget "NINJATests" */;
+			buildConfigurationList = 6ECCBD621E10BC0F0074467B /* Build configuration list for PBXNativeTarget "Ruby's GameTests" */;
 			buildPhases = (
 				6ECCBD471E10BC0E0074467B /* Sources */,
 				6ECCBD481E10BC0E0074467B /* Frameworks */,
@@ -158,14 +170,14 @@
 			dependencies = (
 				6ECCBD4D1E10BC0E0074467B /* PBXTargetDependency */,
 			);
-			name = NINJATests;
+			name = "Ruby's GameTests";
 			productName = NINJATests;
-			productReference = 6ECCBD4B1E10BC0E0074467B /* NINJATests.xctest */;
+			productReference = 6ECCBD4B1E10BC0E0074467B /* Ruby's GameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6ECCBD551E10BC0E0074467B /* NINJAUITests */ = {
+		6ECCBD551E10BC0E0074467B /* Ruby's GameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6ECCBD651E10BC0F0074467B /* Build configuration list for PBXNativeTarget "NINJAUITests" */;
+			buildConfigurationList = 6ECCBD651E10BC0F0074467B /* Build configuration list for PBXNativeTarget "Ruby's GameUITests" */;
 			buildPhases = (
 				6ECCBD521E10BC0E0074467B /* Sources */,
 				6ECCBD531E10BC0E0074467B /* Frameworks */,
@@ -176,9 +188,9 @@
 			dependencies = (
 				6ECCBD581E10BC0E0074467B /* PBXTargetDependency */,
 			);
-			name = NINJAUITests;
+			name = "Ruby's GameUITests";
 			productName = NINJAUITests;
-			productReference = 6ECCBD561E10BC0E0074467B /* NINJAUITests.xctest */;
+			productReference = 6ECCBD561E10BC0E0074467B /* Ruby's GameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6ECCBD321E10BC0E0074467B /* Build configuration list for PBXProject "NINJA" */;
+			buildConfigurationList = 6ECCBD321E10BC0E0074467B /* Build configuration list for PBXProject "Ruby's Game" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +235,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6ECCBD361E10BC0E0074467B /* NINJA */,
-				6ECCBD4A1E10BC0E0074467B /* NINJATests */,
-				6ECCBD551E10BC0E0074467B /* NINJAUITests */,
+				6ECCBD361E10BC0E0074467B /* Ruby's Game */,
+				6ECCBD4A1E10BC0E0074467B /* Ruby's GameTests */,
+				6ECCBD551E10BC0E0074467B /* Ruby's GameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ECCBD6B1E10D5DA0074467B /* NinjaViewController.swift in Sources */,
 				6ECCBD3D1E10BC0E0074467B /* ViewController.swift in Sources */,
+				6E6666151E19F0470023517E /* BananaController.swift in Sources */,
 				6ECCBD3B1E10BC0E0074467B /* AppDelegate.swift in Sources */,
+				6ECEEE831E12258E005919BF /* DragonViewController.swift in Sources */,
+				6EA0B0011E1CDE2E0061660D /* PhotoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +304,12 @@
 /* Begin PBXTargetDependency section */
 		6ECCBD4D1E10BC0E0074467B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6ECCBD361E10BC0E0074467B /* NINJA */;
+			target = 6ECCBD361E10BC0E0074467B /* Ruby's Game */;
 			targetProxy = 6ECCBD4C1E10BC0E0074467B /* PBXContainerItemProxy */;
 		};
 		6ECCBD581E10BC0E0074467B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6ECCBD361E10BC0E0074467B /* NINJA */;
+			target = 6ECCBD361E10BC0E0074467B /* Ruby's Game */;
 			targetProxy = 6ECCBD571E10BC0E0074467B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -417,6 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C268RAA64Q;
 				INFOPLIST_FILE = NINJA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AIRW.NINJA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C268RAA64Q;
 				INFOPLIST_FILE = NINJA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AIRW.NINJA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AIRW.NINJATests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NINJA.app/NINJA";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ruby's Game.app/Ruby's Game";
 			};
 			name = Debug;
 		};
@@ -463,7 +481,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AIRW.NINJATests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NINJA.app/NINJA";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ruby's Game.app/Ruby's Game";
 			};
 			name = Release;
 		};
@@ -498,7 +516,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6ECCBD321E10BC0E0074467B /* Build configuration list for PBXProject "NINJA" */ = {
+		6ECCBD321E10BC0E0074467B /* Build configuration list for PBXProject "Ruby's Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6ECCBD5D1E10BC0F0074467B /* Debug */,
@@ -507,29 +525,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6ECCBD5F1E10BC0F0074467B /* Build configuration list for PBXNativeTarget "NINJA" */ = {
+		6ECCBD5F1E10BC0F0074467B /* Build configuration list for PBXNativeTarget "Ruby's Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6ECCBD601E10BC0F0074467B /* Debug */,
 				6ECCBD611E10BC0F0074467B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6ECCBD621E10BC0F0074467B /* Build configuration list for PBXNativeTarget "NINJATests" */ = {
+		6ECCBD621E10BC0F0074467B /* Build configuration list for PBXNativeTarget "Ruby's GameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6ECCBD631E10BC0F0074467B /* Debug */,
 				6ECCBD641E10BC0F0074467B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6ECCBD651E10BC0F0074467B /* Build configuration list for PBXNativeTarget "NINJAUITests" */ = {
+		6ECCBD651E10BC0F0074467B /* Build configuration list for PBXNativeTarget "Ruby's GameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6ECCBD661E10BC0F0074467B /* Debug */,
 				6ECCBD671E10BC0F0074467B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6ECCBD361E10BC0E0074467B"
-               BuildableName = "NINJA.app"
-               BlueprintName = "NINJA"
-               ReferencedContainer = "container:NINJA.xcodeproj">
+               BuildableName = "Ruby&apos;s Game.app"
+               BlueprintName = "Ruby&apos;s Game"
+               ReferencedContainer = "container:Ruby&apos;s Game.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6ECCBD4A1E10BC0E0074467B"
-               BuildableName = "NINJATests.xctest"
-               BlueprintName = "NINJATests"
-               ReferencedContainer = "container:NINJA.xcodeproj">
+               BuildableName = "Ruby&apos;s GameTests.xctest"
+               BlueprintName = "Ruby&apos;s GameTests"
+               ReferencedContainer = "container:Ruby&apos;s Game.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6ECCBD551E10BC0E0074467B"
-               BuildableName = "NINJAUITests.xctest"
-               BlueprintName = "NINJAUITests"
-               ReferencedContainer = "container:NINJA.xcodeproj">
+               BuildableName = "Ruby&apos;s GameUITests.xctest"
+               BlueprintName = "Ruby&apos;s GameUITests"
+               ReferencedContainer = "container:Ruby&apos;s Game.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6ECCBD361E10BC0E0074467B"
-            BuildableName = "NINJA.app"
-            BlueprintName = "NINJA"
-            ReferencedContainer = "container:NINJA.xcodeproj">
+            BuildableName = "Ruby&apos;s Game.app"
+            BlueprintName = "Ruby&apos;s Game"
+            ReferencedContainer = "container:Ruby&apos;s Game.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6ECCBD361E10BC0E0074467B"
-            BuildableName = "NINJA.app"
-            BlueprintName = "NINJA"
-            ReferencedContainer = "container:NINJA.xcodeproj">
+            BuildableName = "Ruby&apos;s Game.app"
+            BlueprintName = "Ruby&apos;s Game"
+            ReferencedContainer = "container:Ruby&apos;s Game.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6ECCBD361E10BC0E0074467B"
-            BuildableName = "NINJA.app"
-            BlueprintName = "NINJA"
-            ReferencedContainer = "container:NINJA.xcodeproj">
+            BuildableName = "Ruby&apos;s Game.app"
+            BlueprintName = "Ruby&apos;s Game"
+            ReferencedContainer = "container:Ruby&apos;s Game.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

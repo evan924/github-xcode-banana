@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:NINJA.xcodeproj">
+      location = "self:/Users/ziyiwang/Desktop/NINJA/Ruby&apos;s Game.xcodeproj">
    </FileRef>
 </Workspace>
