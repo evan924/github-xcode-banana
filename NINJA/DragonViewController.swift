@@ -17,8 +17,13 @@ class DragonViewController: UIViewController {
     
     var BananaImageView = UIImageView()
     
+    var timer = Timer()
+    var TimerLabel = UILabel()
+    var timerCounter = 0
+    
     let bananaController:BananaController = BananaController()
     
+    @IBOutlet weak var NaviBar: UINavigationBar!
     
 
     override func viewDidLoad() {
@@ -52,11 +57,34 @@ class DragonViewController: UIViewController {
             setBackground()
             setButtons()
             setBanana()
+            setTimer()
         }
         else{
             self.navigationController?.popViewController(animated: true)
         }
     }
+    
+    func setTimer(){
+        timerCounter = 0
+        TimerLabel.text = "00:00:00"
+        TimerLabel.frame = CGRect(x: 20, y: 40, width: 200, height: 30)
+        TimerLabel.font = UIFont(name: "Papyrus", size: 30)
+        TimerLabel.textColor = UIColor(red:0.19, green:0.62, blue:0.04, alpha:1.0)
+        self.view.addSubview(TimerLabel)
+        timer.invalidate()
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(timerAction), userInfo: nil, repeats: true)
+    }
+    func timerAction(){
+        timerCounter += 1
+        let seconds = timerCounter%60
+        let minutes = (timerCounter/60)%60
+        let hours = (timerCounter/60)/60
+        let strSeconds = String(format:"%02d",seconds)      //two digits timer
+        let strMinutes = String(format: "%02d",minutes)
+        let strHours = String(format: "%02d",hours)
+        TimerLabel.text = "\(strHours):\(strMinutes):\(strSeconds)"
+    }
+    
     
     func setBanana(){
         BananaImageView.frame = CGRect(x: curBananaPosX,y:curBananaPosY ,width: 35,height: 35)
@@ -81,10 +109,10 @@ class DragonViewController: UIViewController {
                     b.frame = CGRect(x:xs+CGFloat(i*35),y:ys+CGFloat(j*35),width:35,height:35)
                 }
                 else{
-                    b.frame = CGRect(x:xs+CGFloat(i*35)+17.5,y:ys+CGFloat(j*35),width:35,height:35)
+                    b.frame = CGRect(x:xs+CGFloat(i*35)+17.5,y:ys+CGFloat(j*35),width:35,height:35)// indent before odd line
                 }
                 b.setImage(UIImage(named:"button1"),for:UIControlState())
-                b.setTitle("\(j)"+"\(i)", for: UIControlState())
+                b.setTitle("\(j)"+"\(i)", for: UIControlState())        //set title to identify postion in game map
                 self.view.addSubview(b)
                 b.addTarget(self, action: #selector(DragonViewController.pressButton(_:)), for:.touchUpInside)
                 
@@ -104,7 +132,7 @@ class DragonViewController: UIViewController {
     
     func pressButton(_ btn:UIButton){
         if btn.currentTitle != "Pressed"{
-            let curX:Int? = Int(btn.currentTitle!)! / 10
+            let curX:Int? = Int(btn.currentTitle!)! / 10            //get button position in game map and set it to pressed
             let curY:Int? = Int(btn.currentTitle!)! % 10
             btn.setImage(UIImage(named:"button2"), for: UIControlState())
             btn.setTitle("Pressed",for: UIControlState())
@@ -121,14 +149,14 @@ class DragonViewController: UIViewController {
         for b in buttons{
             if b.currentTitle == "\(curPos[0])"+"\(curPos[1])"{
                 b.isUserInteractionEnabled = true
-            }
+            }// set banana postion disable
         }
         
         var esc = bananaController.getEscDirections()
         for b in buttons{
             if b.currentTitle == "\(esc[0])"+"\(esc[1])"{
                 b.isUserInteractionEnabled = false
-            }
+            }// set last banana postion enable
         }
         let xs = self.view.frame.size.width/2-17.5-140
         let ys = self.view.frame.size.height/2-17.5-140
@@ -151,6 +179,7 @@ class DragonViewController: UIViewController {
 
     
     func showResult(win:Int){
+        timer.invalidate()
         if (win > 0){
             let alert = UIAlertController(title: "You Win!!", message: "You saved the world in \(win)"+" Moves", preferredStyle: .alert)
             let actionYes = UIAlertAction(title: "Start Again", style: .default, handler: {act in self.resetGame(reset: true)})

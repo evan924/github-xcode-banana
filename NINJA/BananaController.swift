@@ -19,7 +19,7 @@ class BananaController:NSObject{
     
     func Init(){
         self.bananaPosX = 4
-        self.bananaPosY = 4
+        self.bananaPosY = 4         //set start point
         
         count = 0
         
@@ -38,7 +38,7 @@ class BananaController:NSObject{
                 }
                 
             }
-            print(gameMap[j])
+            print(gameMap[j])       //put some random blocks on the game map
         }
         gameMap[4][4] = 1           // set start point unpressed
     }
@@ -185,10 +185,10 @@ class BananaController:NSObject{
     }
     
     func isBananaCaught() -> Int{
-        let bananaPos0 = [bananaPosX-1,bananaPosY-(bananaPosX+1) % 2]
-        let bananaPos1 = [bananaPosX,bananaPosY-1]
-        let bananaPos2 = [bananaPosX+1,bananaPosY-(bananaPosX+1) % 2]
-        let bananaPos3 = [bananaPosX+1,bananaPosY+bananaPosX % 2]
+        let bananaPos0 = [bananaPosX-1,bananaPosY-(bananaPosX+1) % 2]       //    0  5
+        let bananaPos1 = [bananaPosX,bananaPosY-1]                          //  1      4
+        let bananaPos2 = [bananaPosX+1,bananaPosY-(bananaPosX+1) % 2]       //    2  3
+        let bananaPos3 = [bananaPosX+1,bananaPosY+bananaPosX % 2]           //
         let bananaPos4 = [bananaPosX,bananaPosY+1]
         let bananaPos5 = [bananaPosX-1,bananaPosY+bananaPosX % 2]
         
